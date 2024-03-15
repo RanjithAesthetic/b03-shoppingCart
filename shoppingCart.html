@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="shoppingCart.css">
+</head>
+<body>
+    <h2>Our Products</h2>
+
+    <div class="product-list">
+        <div class="product-item">
+            <div class="product-image">
+                <img src="./Asserts/images/library-chairs1.jpg" alt="libraryChairs">
+            </div>
+    
+            <div class="product-details">
+                <div class="product-name-and-price">
+                    <h3>Library Stool Chair</h3>
+                    <p class="price">$20</p>
+                </div>
+
+                <div class="product-addCart-btn-container">
+                    <button class="addCart-btn"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-item">
+            <div class="product-image">
+                <img src="./Asserts/images/library-furniture-2.jpg" alt="libraryChairs">
+            </div>
+    
+            <div class="product-details">
+                <div class="product-name-and-price">
+                    <h3>Library Stool Chair</h3>
+                    <p class="price">$20</p>
+                </div>
+    
+                <div class="product-addCart-btn-container">
+                    <button class="addCart-btn"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-item">
+            <div class="product-image">
+                <img src="./Asserts/images/library-chairs1.jpg" alt="libraryChairs">
+            </div>
+    
+            <div class="product-details">
+                <div class="product-name-and-price">
+                    <h3>Library Stool Chair</h3>
+                    <p class="price">$20</p>
+                </div>
+    
+                <div class="product-addCart-btn-container">
+                    <button class="addCart-btn"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-item">
+            <div class="product-image">
+                <img src="./Asserts/images/library-furniture-2.jpg" alt="libraryChairs">
+            </div>
+    
+            <div class="product-details">
+                <div class="product-name-and-price">
+                    <h3>Library Stool Chair</h3>
+                    <p class="price">$20</p>
+                </div>
+    
+                <div class="product-addCart-btn-container">
+                    <button class="addCart-btn"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-item">
+            <div class="product-image">
+                <img src="./Asserts/images/library-chairs1.jpg" alt="libraryChairs">
+            </div>
+    
+            <div class="product-details">
+                <div class="product-name-and-price">
+                    <h3>Library Stool Chair</h3>
+                    <p class="price">$20</p>
+                </div>
+    
+                <button class="addCart-btn"></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="cart" id="cart">
+            <div class="cart-controls">
+                <div class="cart-price-range">
+                    <input type="text" id="priceRange" placeholder="Enter a price">
+                    <img src="./Asserts/images/filter-image.png" alt="Filter Icon" class="filter-image-icon">
+                </div>
+                <div class="cart-sort-container">
+                    <button class="sort-btn">Sort by Price</button>
+                    <button class="clear-btn">Clear Cart</button>
+                </div>
+            </div>
+        
+        <h2>Cart</h2>
+        <ul id="cartItems" class="cart-items">
+            
+        </ul>
+        <div class="cart-summary">
+            <h2>Cart Summary</h2>
+            <p>Average Product Price: <span id="averageProductPrice">0</span></p>
+            <hr>
+            <p>Total: <span id="totalPrice">0</span></p>
+            <hr>
+        </div>
+    </div>
+    
+    <script src="shoppingCart.js"></script>
+    
+</body>
+</html>
